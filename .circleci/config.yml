@@ -11,7 +11,7 @@ jobs:
     description: Une job qui affiche les fichiers
     machine: true
     steps:
-      - run: echo "la -al"
+      - run: ls -al
 
 workflows:
   monWorkflow:
