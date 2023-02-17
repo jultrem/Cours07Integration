@@ -17,4 +17,6 @@ workflows:
   monWorkflow:
     jobs:
       - sayhello
-      - displayfiles
+      - displayfiles:
+          requires:
+          - sayhello
